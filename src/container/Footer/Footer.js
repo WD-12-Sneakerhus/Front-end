@@ -12,7 +12,7 @@ function Footer() {
             </div>
             <p> Chất lượng tạo nên thương hiệu. Chúng tôi cam kết mang đến những sản phẩm và dịch vụ xuất sắc, giúp khách hàng trải nghiệm sự hoàn hảo.</p>
             <div className="contact-info">
-              <p><i className="fas fa-phone"></i> +84 868 986 239</p>
+              <p><i className="fas fa-phone"></i> +84.868.986.239</p>
               <p><i className="fas fa-envelope"></i> Sneakerhubs@gmail.com</p>
               <p><i className="fas fa-map-marker-alt"></i> 299 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</p>
             </div>
