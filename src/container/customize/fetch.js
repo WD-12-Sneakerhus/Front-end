@@ -24,3 +24,6 @@ const useFetchAllcode = (type) => {
 export {
     useFetchAllcode
 }
+
+// export default useFetchAllcode;
+// import { useEffect, useState } from 'react';
