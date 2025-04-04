@@ -99,5 +99,6 @@ function ShopCartItem(props) {
         </tr>
     );
 }
+// ShopCartItem.propTypes = {
 
 export default ShopCartItem;
