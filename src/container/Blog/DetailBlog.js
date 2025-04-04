@@ -137,6 +137,8 @@ function DetailBlog(props) {
                   })
                 }
 
+                // Comment Form
+
 
               </div>
               <CommentFormBlog handleAddComment={handleAddComment} />
