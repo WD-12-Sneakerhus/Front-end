@@ -31,6 +31,8 @@ const FormSearch = (props) => {
         
         </form>
     )
+    // return (
+    //     <div className="row justify-content-center">
 }
 export default FormSearch;
 
