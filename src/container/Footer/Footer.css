@@ -232,3 +232,7 @@
   0% { transform: translateX(-100%) rotate(45deg); }
   100% { transform: translateX(100%) rotate(45deg); }
 }
+
+
+// Add this CSS to your existing CSS file
+// or create a new CSS file and import it in your component 
