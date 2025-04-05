@@ -1,0 +1,16 @@
+.list-category .header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 85px;
+}
+.list-category li {
+  margin-bottom: 5px;
+}
+.list-category li a {
+  color: #333;
+}
+.list-category li a:hover {
+  cursor: pointer;
+  color: #ee4d3a;
+}/*# sourceMappingURL=DetailUserPage.css.map */

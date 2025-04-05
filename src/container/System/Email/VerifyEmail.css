@@ -1,0 +1,9 @@
+.container-verify-email {
+  width: 100vw;
+  height: 500px;
+}
+.container-verify-email .text-verify-email {
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}/*# sourceMappingURL=VerifyEmail.css.map */
