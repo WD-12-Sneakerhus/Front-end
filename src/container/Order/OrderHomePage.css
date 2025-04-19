@@ -1,0 +1,203 @@
+.wrap-order {
+  background-color: #f5f5f5;
+}
+.wrap-order .wrap-heading-order {
+  padding: 0 130px;
+  height: 101px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.wrap-order .wrap-heading-order span {
+  border-left: 0.0625rem solid #FF5722;
+  padding-left: 0.9375rem;
+  margin-left: 20px;
+  font-size: 1.35rem;
+  line-height: 1.875rem;
+  height: 1.875rem;
+  text-transform: capitalize;
+  color: #FF5722;
+  font-weight: 600;
+}
+.wrap-order .wrap-address-order {
+  margin: 0 130px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+.wrap-order .wrap-address-order .border-top-address-order {
+  height: 3px;
+  width: 100%;
+  background-position-x: -30px;
+  background-size: 116px 3px;
+  background-image: repeating-linear-gradient(45deg, #6fa6d6, #6fa6d6 33px, transparent 0, transparent 41px, #f18d9b 0, #f18d9b 74px, transparent 0, transparent 82px);
+}
+.wrap-order .wrap-address-order .wrap-content-address {
+  padding: 28px 30px 24px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-left {
+  display: flex;
+  align-items: center;
+  color: #FF5722;
+  font-size: 18px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-left span {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-right .wrap-add-address {
+  background-color: #fff;
+  text-transform: capitalize;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.168627451);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.031372549);
+  color: #555;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-right .wrap-add-address span {
+  margin-left: 8px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-right .wrap-add-address:hover {
+  background-color: rgba(0, 0, 0, 0.0196078431);
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-right .wrap-establish-address {
+  background-color: #fff;
+  text-transform: capitalize;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.168627451);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.031372549);
+  color: #555;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-up .content-right .wrap-establish-address:hover {
+  background-color: rgba(0, 0, 0, 0.0196078431);
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-down .content-left {
+  font-weight: 700;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-down .content-right {
+  width: 200px;
+  margin-left: 30px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-down .content-right .text-default {
+  color: #929292;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-down .content-right .text-change {
+  color: #0055aa;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.wrap-order .wrap-address-order .wrap-content-address .content-down .wrap-radio-address {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .box-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.wrap-order .wrap-address-order .wrap-content-address .box-action .wrap-back {
+  background-color: #fff;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.168627451);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.031372549);
+  color: #000;
+  font-weight: 400;
+  padding: 8px 29px;
+  cursor: pointer;
+}
+.wrap-order .wrap-address-order .wrap-content-address .box-action .wrap-back:hover {
+  background-color: rgba(0, 0, 0, 0.0196078431);
+}
+.wrap-order .wrap-order-item {
+  margin: 20px 130px 0px 130px;
+  background-color: #fff;
+  border: 1px solid rgb(230, 230, 230) !important;
+}
+.wrap-order .wrap-order-item .cart_area {
+  padding-top: 20px;
+  padding-bottom: 20px !important;
+}
+.wrap-order .wrap-payment {
+  margin: 20px 130px 0px 130px;
+  background-color: #fff;
+  border: 1px solid rgb(230, 230, 230) !important;
+}
+.wrap-order .wrap-payment .content-top {
+  padding: 20px;
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.05);
+}
+.wrap-order .wrap-payment .content-top span {
+  font-weight: 500;
+  font-size: 19px;
+}
+.wrap-order .wrap-payment .content-top .box-type-payment {
+  border: 1px solid rgba(0, 0, 0, 0.0901960784);
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.wrap-order .wrap-payment .content-top .box-type-payment.active {
+  color: #FF5722;
+  border-color: #FF5722;
+}
+.wrap-order .wrap-payment .content-top .box-type-payment.activeOnl {
+  color: #fc7f0b;
+  border-color: #fc7f0b;
+}
+.wrap-order .wrap-payment .content-top .box-payment {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 0 230px;
+}
+.wrap-order .wrap-payment .content-bottom {
+  background-color: #fffefb;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.wrap-order .wrap-payment .content-bottom .wrap-bottom {
+  color: rgba(0, 0, 0, 0.5411764706);
+}
+.wrap-order .wrap-payment .content-bottom .wrap-bottom .box-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.wrap-order .wrap-payment .content-bottom .wrap-bottom .box-flex .main_btn {
+  line-height: 36px !important;
+  margin-left: 30px !important;
+  margin-top: 20px !important;
+  padding: 0px 60px !important;
+}
+.wrap-order .wrap-payment .content-bottom .wrap-bottom .box-flex .head {
+  width: 140px;
+  font-size: 18px;
+}
+.wrap-order .wrap-payment .content-bottom .wrap-bottom .box-flex .money {
+  font-size: 22px;
+  color: #FF5722;
+}/*# sourceMappingURL=OrderHomePage.css.map */

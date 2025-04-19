@@ -1,0 +1,45 @@
+.box-heading {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 20px;
+}
+.box-heading .content-right .wrap-add-address {
+  background-color: #ee4d2d;
+  text-transform: capitalize;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.168627451);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.031372549);
+  color: #fff;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.box-heading .content-right .wrap-add-address span {
+  margin-left: 8px;
+}
+.box-heading .content-right .wrap-add-address:hover {
+  opacity: 0.8;
+}
+
+.box-address-user {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+}
+.box-address-user .content-left .box-label {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.box-address-user .content-left .box-label .label {
+  color: rgba(85, 85, 85, 0.8);
+  line-height: 1.8rem;
+}
+.box-address-user .content-left .box-label .content {
+  line-height: 1.8rem;
+}
+.box-address-user .content-right .text-underline {
+  text-decoration: underline;
+  margin-right: 20px;
+  color: #555555;
+  cursor: pointer;
+}/*# sourceMappingURL=AddressUser.css.map */
