@@ -76,4 +76,5 @@ export const ChooseTypeShipStart = (data) => {
         data: data
     }
 }
+//export cpnts 
 // export const ChoosePaymentStart = (data) => {}
