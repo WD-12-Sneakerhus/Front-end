@@ -58,6 +58,7 @@
   }
   .home_banner_area .box-banner .banner_inner {
     min-height: 70vh !important;
+     min-height: 70vh !important;
   }
 }
 
