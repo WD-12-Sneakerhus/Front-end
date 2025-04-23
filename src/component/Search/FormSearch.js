@@ -14,7 +14,9 @@ const FormSearch = (props) => {
     }
     let handleOnchange = (keyword)=>{
         setkeyword(keyword)
+        // props.handleOnchange(keyword)
         props.handleOnchange(keyword)
+        
     }
 
 
