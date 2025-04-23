@@ -107,7 +107,7 @@ function DetailProductPage(props) {
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><Link to="/">Trang chủ</Link></li>
-                                        <li className="breadcrumb-item"><Link to="/shop">Cửa hàng</Link></li>
+                                        <li className="breadcrumb-item"><Link to="/shop">Cửa hàng</Link></li>          <li className="breadcrumb-item"><Link to="/shop">Cửa hàng</Link></li>
                                         <li className="breadcrumb-item active" aria-current="page">{dataProduct.name}</li>
                                     </ol>
                                 </nav>
