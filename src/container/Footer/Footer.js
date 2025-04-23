@@ -34,7 +34,7 @@ function Footer() {
               <li><a href="#">Mới nhất</a></li>
               <li><a href="#">Bán chạy</a></li>
               <li><a href="#">Khuyến mãi</a></li>
-              <li><a href="#">Sắp ra mắt</a></li>
+              <li><a href="#">Sản phẩm sắp ra mắt</a></li>
             </ul>
           </div>
 
