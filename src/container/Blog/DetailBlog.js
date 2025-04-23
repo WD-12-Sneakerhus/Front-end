@@ -85,7 +85,7 @@ function DetailBlog(props) {
             <div class="banner_content d-md-flex justify-content-between align-items-center">
               <div class="mb-3 mb-md-0">
                 <h2>Chi tiết bài đăng</h2>
-                <p>Theo dõi bài đăng để nhận thông tin mới nhất</p>
+               
               </div>
               <div class="page_link">
                 <Link to={"/"}>Trang chủ</Link>
