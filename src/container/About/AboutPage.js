@@ -34,7 +34,7 @@ function AboutPage() {
             <div className="container py-5">
                 <div className="row mb-5">
                     <div className="col-md-6">
-                        <h3 className="section-title">Câu chuyện của chúng tôi</h3>
+                        <h3 className="section-title">Câu chuyện đặc biệt của chúng tôi</h3>
                         <p>Từ niềm đam mê sneaker, Sneaker Hubs ra đời với sứ mệnh mang đến những đôi giày chất lượng, phong cách và đẳng cấp. Không chỉ là một cửa hàng, chúng tôi là nơi hội tụ của những tín đồ sneaker, nơi mỗi bước chân kể một câu chuyện riêng.
 
 Chúng tôi tin rằng một đôi giày tốt không chỉ giúp bạn di chuyển, mà còn giúp bạn tỏa sáng. Hãy để Sneaker Hubs đồng hành cùng bạn trên mọi hành trình! 🚀👟</p>

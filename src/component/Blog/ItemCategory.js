@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 function ItemCategory(props) {
     
-    let handleClickCategory = (code) =>{
+    // let handleClickCategory = (code) =>{
+    let handleClickCategory =(code) => {
         props.handleClickCategory(code)
         
     }
@@ -15,5 +16,6 @@ function ItemCategory(props) {
          </li>
     );
 }
+
 
 export default ItemCategory;

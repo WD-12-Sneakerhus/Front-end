@@ -5,12 +5,12 @@ import moment from 'moment';
 import KeyCodeUtils from "../../utils/KeyCodeUtils";
 import './DatePicker.scss';
 
-// const CustomInput = ({ value, defaultValue, inputRef, onInputChange, onInputBlur, ...props }) => {
-//     return <input {...props} className='custom-form-control custom-date-input' defaultValue={defaultValue} ref={inputRef}
-//         onChange={onInputChange}
-//         onBlur={onInputBlur}
-//     />;
-// };
+const CustomInput = ({ value, defaultValue, inputRef, onInputChange, onInputBlur, ...props }) => {
+    return <input {...props} className='custom-form-control custom-date-input' defaultValue={defaultValue} ref={inputRef}
+        onChange={onInputChange}
+        onBlur={onInputBlur}
+    />;
+};
 
 class DatePicker extends Component {
 

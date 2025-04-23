@@ -36,7 +36,9 @@ function RightBlog(props) {
                 </aside>
                 
                    <aside class="single_sidebar_widget post_category_widget">
-                   <h4 class="widget_title">Danh mục</h4>
+                   // <h4 class="widget_title">Danh mục</h4>
+        <h4 class="widget_title">Danh mục blog</h4>
+        
                    <ul class="list cat-list">
                    <ItemCategory activeLinkId={activeLinkId} handleClickCategory={handleClickCategory} data={{value:'Tất cả',code:'',countPost:'ALL'}}/>
                       {

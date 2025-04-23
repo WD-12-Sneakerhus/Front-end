@@ -5,20 +5,20 @@ function Filter(props) {
         let recommender = new jsrecommender.Recommender();
 
         let table = new jsrecommender.Table();
-        table.setCell('Love at last', 'Alice', 5);
-        table.setCell('Remance forever', 'Alice', 5);
-        table.setCell('Nonstop car chases', 'Alice', 0);
-        table.setCell('Sword vs. karate', 'Alice', 0);
-        table.setCell('Love at last', 'Bob', 5);
-        table.setCell('Cute puppies of love', 'Bob', 4);
-        table.setCell('Nonstop car chases', 'Bob', 0);
-        table.setCell('Sword vs. karate', 'Bob', 0);
-        table.setCell('Love at last', 'Carol', 0);
-        table.setCell('Cute puppies of love', 'Carol', 0);
-        table.setCell('Nonstop car chases', 'Carol', 5);
-        table.setCell('Sword vs. karate', 'Carol', 5);
-        table.setCell('Love at last', 'Dave', 0);
-        table.setCell('Remance forever', 'Dave', 0);
+        // table.setCell('Love at last', 'Alice', 5);
+        // table.setCell('Remance forever', 'Alice', 5);
+        // table.setCell('Nonstop car chases', 'Alice', 0);
+        // table.setCell('Sword vs. karate', 'Alice', 0);
+        // table.setCell('Love at last', 'Bob', 5);
+        // table.setCell('Cute puppies of love', 'Bob', 4);
+        // table.setCell('Nonstop car chases', 'Bob', 0);
+        // table.setCell('Sword vs. karate', 'Bob', 0);
+        // table.setCell('Love at last', 'Carol', 0);
+        // table.setCell('Cute puppies of love', 'Carol', 0);
+        // table.setCell('Nonstop car chases', 'Carol', 5);
+        // table.setCell('Sword vs. karate', 'Carol', 5);
+        // table.setCell('Love at last', 'Dave', 0);
+        // table.setCell('Remance forever', 'Dave', 0);
         table.setCell('Nonstop car chases', 'Dave', 4);
 
         let model = recommender.fit(table);
