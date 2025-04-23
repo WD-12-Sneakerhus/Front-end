@@ -87,7 +87,7 @@ const Header = props => {
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span className="icon-bar" />
                             <span className="icon-bar" />
-                            <span className="icon-bar" />
+                            // <span className="icon-bar" />
                         </button>
                         {/* Collect the nav links, forms, and other content for toggling */}
                         <div className="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
